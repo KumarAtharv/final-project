@@ -6,18 +6,18 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Dancing Script', cursive;
     color: #222;
     background: #f7f5f0;
-  }
-  /* Link Styles */
+  }/* Link Styles */
   
   a {
     text-decoration: none;
-    color: white;
+    color: #6633ff;
+    padding: 10px 10px 10px 10px;
   }
   a:hover {
-    color: #6633ff;
+    color: #ff99ff;
     text-decoration: none;
   }
   
@@ -35,6 +35,7 @@
     display: flex;
     justify-content: space-around;
     font-weight: 700;
+    font-size: large;
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
@@ -45,19 +46,21 @@
     font-family: 'Leckerli One', cursive;
   }
   .nav li {
-    padding: 5px 10px 10px 10px;
     list-style-type: none;
+  }
+  .nav li:hover{
+    transform: scale(2.4) rotate(5deg);
   }
   .nav a {
     transition: all .5s;
   }
   .nav a:hover {
-    color: #170312;
+    color: #ff99ff;
   }
   
   header {
     text-align: center;
-    background: url('http://www.rosalindmillercakes.com/wp-content/uploads/2015/06/1703_DesTab_B_Mar17-108.jpg') no-repeat top center ;    
+    background: url('http://www.rosalindmillercakes.com/wp-content/uploads/2015/06/1703_DesTab_B_Mar17-108.jpg') no-repeat top center ;
     background-size: cover;
     overflow: hidden;
     padding-top: 60px;
@@ -89,7 +92,6 @@
     margin: 30px;
     padding: 20px 40px 40px;
     max-width: 500px;
-    text-align: left;
     background: #fff;
     border-bottom: 4px solid #ccc;
     border-radius: 6px;
@@ -101,18 +103,73 @@
     font-family: 'Leckerli One', cursive;
   }
   .unsplash{
-    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 250px;
+    border: 10px solid white;
   }
+  .about-container {
+    background-color: #FADAF1;
+    width: 100%;
+    height: auto;
+    padding: 0% 10% 5% 10%;
+    margin-top: 20px;
+  }
+  .about-heading{
+    border-radius: 10%;
+    background: url('https://static1.squarespace.com/static/563817ebe4b05d0f913649e8/t/59b861f32994cad675223319/1515523985955/Now+Open%21.jpg') no-repeat top center ;
+  }
+  
+  blockquote{
+    font-size: x-large;
+    padding-top: 20px;
+  }
+
+  /*ABOUT PAGE*/
+  .content-1{
+      margin: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  .content-2{
+      margin: 10px;
+  }
+  
+  .left{
+      display: inline-block;
+      width: 30%;
+      padding: 10px;
+  }
+  .left .content-img{
+      height: 300px;
+      border-radius: 10%
+  }
+  .right p{
+      margin-top: 30px;
+  }
+  .right{
+      display: inline-block;
+      width: 70%;
+  }
+  .content-3 div{
+      display: inline-block;
+      width: 30%;
+      margin: 10px;
+  }
+  /*FOOTER*/
   footer {
     text-align: center;
-    background: url('http://www.rosalindmillercakes.com/wp-content/uploads/2015/06/1703_DesTab_B_Mar17-108.jpg') no-repeat top center ;    
+    background: url('http://www.rosalindmillercakes.com/wp-content/uploads/2015/06/1703_DesTab_B_Mar17-108.jpg') no-repeat bottom center ;    
     background-size: cover;
     overflow: hidden;
     padding-top: 60px;
   }
+  
   footer {
     line-height: 1.5;
   }
+  
+
   /* Styles for larger screens */
   @media screen and (min-width: 720px) {
     
