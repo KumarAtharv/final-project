@@ -17,7 +17,7 @@
     padding: 10px 10px 10px 10px;
   }
   a:hover {
-    color: #ff99ff;
+    color: white;
     text-decoration: none;
   }
   
@@ -25,7 +25,7 @@
   
   .main-nav {
     width: 100%;
-    background: #2B2330;
+    background: black;
     min-height: 30px;
     padding: 10px;
     position: fixed;
@@ -60,7 +60,7 @@
   
   header {
     text-align: center;
-    background: url('http://www.rosalindmillercakes.com/wp-content/uploads/2015/06/1703_DesTab_B_Mar17-108.jpg') no-repeat top center ;
+    background: url('http://3.bp.blogspot.com/-Al3H06Iyhk4/VZJWcyui8EI/AAAAAAAAX1A/KUoGjg4par8/s1600/IMG_7211_new.jpg') no-repeat center ;
     background-size: cover;
     overflow: hidden;
     padding-top: 60px;
@@ -70,18 +70,18 @@
   }
   header .profile-image {
     margin-top: 50px;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     border: 3px solid white;
     transition: all .5s;
   }
   header .profile-image:hover {
-    transform: scale(2.4) rotate(10deg);
+    transform: scale(1.5) rotate(10deg);
   }
   .tag {
-    background-color: #efefef;
-    color: #170312;
+    background-color: black;
+    color: white;
     padding: 10px;
     border-radius: 5px;
     display: table;
@@ -102,64 +102,15 @@
   .card-title{
     font-family: 'Leckerli One', cursive;
   }
-  .unsplash{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: 250px;
-    border: 10px solid white;
-  }
-  .about-container {
-    background-color: #FADAF1;
-    width: 100%;
-    height: auto;
-    padding: 0% 10% 5% 10%;
-    margin-top: 20px;
-  }
-  .about-heading{
-    border-radius: 10%;
-    background: url('https://static1.squarespace.com/static/563817ebe4b05d0f913649e8/t/59b861f32994cad675223319/1515523985955/Now+Open%21.jpg') no-repeat top center ;
-  }
-  
-  blockquote{
-    font-size: x-large;
-    padding-top: 20px;
+ 
+  .table-image{
+      height: 200px;
   }
 
-  /*ABOUT PAGE*/
-  .content-1{
-      margin: 10px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-  }
-  .content-2{
-      margin: 10px;
-  }
-  
-  .left{
-      display: inline-block;
-      width: 30%;
-      padding: 10px;
-  }
-  .left .content-img{
-      height: 300px;
-      border-radius: 10%
-  }
-  .right p{
-      margin-top: 30px;
-  }
-  .right{
-      display: inline-block;
-      width: 70%;
-  }
-  .content-3 div{
-      display: inline-block;
-      width: 30%;
-      margin: 10px;
-  }
   /*FOOTER*/
   footer {
     text-align: center;
-    background: #2B2330;    
+    background: black;    
     background-size: cover;
     overflow: hidden;
     padding-top: 60px;
@@ -171,6 +122,8 @@
   footer {
     line-height: 1.5;
   }
+  
+
   
 
   /* Styles for larger screens */
