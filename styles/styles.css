@@ -156,6 +156,12 @@
       width: 30%;
       margin: 10px;
   }
+  /* PRICES */
+  .content-3 div{
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+}
   /*FOOTER*/
   footer {
     text-align: center;
