@@ -25,7 +25,8 @@
   
   .main-nav {
     width: 100%;
-    background: #2B2330;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(242,232,12,1) 100%);
     min-height: 30px;
     padding: 10px;
     position: fixed;
@@ -60,7 +61,7 @@
   
   header {
     text-align: center;
-    background: url('https://static1.squarespace.com/static/517aaf16e4b0b2e0f183a30f/t/56e1f24be707ebda10e4f8b2/1457648219590/') no-repeat center ;
+    background: url('https://ak8.picdn.net/shutterstock/videos/15311278/thumb/1.jpg') no-repeat center ;
     background-size: cover;
     overflow: hidden;
     padding-top: 60px;
@@ -80,7 +81,8 @@
     transform: scale(1.5) rotate(10deg);
   }
   .tag {
-    background-color: #2B2330;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(224,255,0,1) 100%);
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -89,7 +91,7 @@
     font-family: 'Leckerli One', cursive;
   }
   .card {
-    margin: 30px;
+    margin: 5px;
     padding: 20px 40px 40px;
     max-width: 500px;
     background: #fff;
@@ -104,9 +106,9 @@
   }
  
   .table-image{
-      width: 280px;
-      height: auto;
-  }
+    height: 200px;
+    padding-bottom: 10%;
+}
 
    /*FOOTER*/
   footer {
