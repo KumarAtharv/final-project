@@ -30,6 +30,7 @@ a:hover {
   min-height: 30px;
   padding: 10px;
   position: fixed;
+  z-index: 5;
   text-align: right;
 }
 .nav {
